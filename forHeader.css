@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+}
+
+.header{
+    background-color: transparent;
+    border-bottom: transparent;
+}
+
+.container{
+    background-color: transparent;
+    width : 1280px;
+    margin : auto;
+
+}
+
+.container-left{
+    width: 700px;
+    float:left;
+}
+
+.logo{
+    float: left;
+    padding: 8px;
+    width : 32px;
+    height: 32px;
+}
+
+.logo img{
+    display: block;
+}
+
+.menu-l{
+    float: left;
+    padding: 16px;
+}
+
+.lmenu-items{
+    float : left;
+    padding-right: 16px;
+}
+
+.container-right{
+    width: 330px;
+    float: right;
+}
+
+.menu-r{
+    float:left;
+    padding : 25px;
+}
+
+.rmenu-items{
+    float:left;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.clearfix::after{
+    content : "";
+    display : block;
+    clear : both;
+}
