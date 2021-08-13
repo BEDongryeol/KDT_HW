@@ -55,4 +55,8 @@ function getItemByAmount(data, amount) {
     return diff[0];
     }
     else return null ;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f73bcc99665baefafb682572e694eba6d81d638e
